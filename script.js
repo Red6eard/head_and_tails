@@ -1,7 +1,6 @@
 const input = document.getElementById('numOfAttempts');
 let numOfMinRender = document.getElementById('numOfMin');
 let numOfMaxRender = document.getElementById('numOfMax');
-let numOfMidRender = document.getElementById('numOfMid')
 
 
 

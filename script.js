@@ -4,7 +4,8 @@ let numOfMaxRender = document.getElementById('numOfMax');
 
 
 
-let start = (count) => {
+
+const start = (count) => {
   let min = 0;
   let max = 0;
   
@@ -20,8 +21,6 @@ let start = (count) => {
       max ++
     }
   };
-  numOfMaxRender.innerHTML = `Орел: ${max}`;
-  numOfMinRender.innerHTML = `Решка: ${min}`;
+  numOfMaxRender.innerHTML = `<img src="images/IMG_7620.png" alt="heads" class="coin" /><span>: ${max}</span>`;
+  numOfMinRender.innerHTML = `<img src="images/IMG_7619.png" alt="tails" class="coin" /><span>: ${min}</span>`;
 };
-
-

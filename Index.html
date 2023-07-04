@@ -9,13 +9,14 @@
 </head>
 
 <body>
-<h1 class="header">"Орел и решка"</h1>
+<h1 class="header"><img src="images/IMG_7616.png" alt="logo" class="header-image">"Орел и решка"</h1>
 <p>Введите колличество подбрасываний:</p>
 <input type="number" id="numOfAttempts">
-<button id="btn" onclick="start(input.value)">push</button>
-<p id="numOfMin"></p>
-<p id="numOfMax"></p>
-
+<button id="startButton" onclick="start(input.value)">Старт!</button>
+<div class="output">
+<div class="cont" id="numOfMin"></div>
+<div class="cont" id="numOfMax"></div>
+</div>
 
 <script src="script.js"></script>
 </body>
